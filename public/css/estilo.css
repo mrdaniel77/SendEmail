@@ -1,0 +1,15 @@
+/* Estilo personalizado para centralizar o formulário */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5; /* Cor de fundo para a página */
+}
+.container {
+    max-width: 400px;
+    background-color: #ffffff; /* Cor de fundo para o formulário */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2); /* Sombra para o formulário */
+}
