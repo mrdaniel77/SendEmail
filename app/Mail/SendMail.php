@@ -30,9 +30,9 @@ class SendMail extends Mailable
     public function build()
     {
         return $this
-                ->from( config('view.name'))
-                ->subject('view.name')
-                ->view('view.name')
-                ->with('data', $this->data);
+            ->from( config('mail.from.address'))
+            ->subject('Contato do site')
+            ->view('contato.message')
+            ->with('data', $this->data);
     }
 }
